@@ -19,10 +19,10 @@
         "button_bTbD38": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "See available cases",
             "button_link": "",
             "button_style_secondary": false,
-            "button_label_2": "",
+            "button_label_2": "Learn how it works",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
