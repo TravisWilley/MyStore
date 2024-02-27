@@ -69,10 +69,64 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "multicolumn_c7KRRP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_YbXYB3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>100%<\/strong>",
+            "text": "<p>Of our cases have signed retainers<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_azwX7D": {
+          "type": "column",
+          "settings": {
+            "title": "Complete",
+            "text": "<p>Transparency into every case - Before you bid!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RzJppt": {
+          "type": "column",
+          "settings": {
+            "title": "Zero",
+            "text": "<p>Upfront deposit or commitment required<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_YbXYB3",
+        "column_azwX7D",
+        "column_RzJppt"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "rich_text_kgFMzr",
-    "featured-collection-0"
+    "featured-collection-0",
+    "multicolumn_c7KRRP"
   ]
 }
