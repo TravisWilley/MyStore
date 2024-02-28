@@ -97,6 +97,7 @@
     },
     "featured_collection_WWheXj": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Available Cases",
         "heading_size": "h1",
@@ -122,11 +123,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1709091999f13e1005": {
+      "type": "apps",
+      "blocks": {
+        "auction_pro_featured_auctions_7bnxFp": {
+          "type": "shopify:\/\/apps\/auction-pro\/blocks\/featured-auctions\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
+          "settings": {
+            "collection": "auctions",
+            "show_auctions": "most_recent_auctions",
+            "number_of_auctions_to_show": 8,
+            "auction_ids": [
+              "copy-of-copy-of-copy-of-copy-of-copy-of-workplace-compensation-new-york",
+              "copy-of-copy-of-copy-of-copy-of-workplace-compensation-new-york",
+              "copy-of-copy-of-copy-of-workplace-compensation-new-york",
+              "copy-of-copy-of-workplace-compensation-new-york"
+            ],
+            "img_size_in_pixels": 50,
+            "date_locale": "",
+            "date_replace_slashes_with_dashes": false
+          }
+        }
+      },
+      "block_order": [
+        "auction_pro_featured_auctions_7bnxFp"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "rich_text_kgFMzr",
     "multicolumn_c7KRRP",
-    "featured_collection_WWheXj"
+    "featured_collection_WWheXj",
+    "1709091999f13e1005"
   ]
 }
