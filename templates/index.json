@@ -1,25 +1,25 @@
 {
   "sections": {
-    "rich_text_kgFMzr": {
-      "type": "rich-text",
+    "live_feed_3nkTrh": {
+      "type": "live-feed",
       "blocks": {
-        "heading_79Pabc": {
+        "heading_VTdQHJ": {
           "type": "heading",
           "settings": {
             "heading": "Stop Buying Leads, Start Buying Revenue",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
-        "text_UfW7id": {
+        "text_BMKRCB": {
           "type": "text",
           "settings": {
             "text": "<p>All cases you see below are<em>fully-signed retainers.<\/em>That means the client has agreed to a full contigency fee and all necessary waivers for you to take on their case. And you can see all case details before you buy + the full call transcript<\/p>"
           }
         },
-        "button_bTbD38": {
+        "button_tiz3f9": {
           "type": "button",
           "settings": {
-            "button_label": "See available cases",
+            "button_label": "See Available Cases",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "Learn how it works",
@@ -29,9 +29,9 @@
         }
       },
       "block_order": [
-        "heading_79Pabc",
-        "text_UfW7id",
-        "button_bTbD38"
+        "heading_VTdQHJ",
+        "text_BMKRCB",
+        "button_tiz3f9"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -154,7 +154,7 @@
     }
   },
   "order": [
-    "rich_text_kgFMzr",
+    "live_feed_3nkTrh",
     "multicolumn_c7KRRP",
     "featured_collection_WWheXj",
     "1709091999f13e1005"
