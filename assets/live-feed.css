@@ -9,6 +9,10 @@
   padding: 6px 15px;
   justify-content: space-between;
 }
+.live {
+  color: #625bf6;
+  font-size: 14px;
+}
 .image-placeholder {
   width: 40px;
   height: 40px;
