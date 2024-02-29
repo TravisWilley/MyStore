@@ -32,6 +32,8 @@ const renderLiveBids = (bids) => {
     const listItem = document.createElement("div");
     listItem.innerHTML = `<div> ${bid.productName}: $${bid.bidAmount}
     <div>${bid.bidDate}</div>
+    <div>image: ${bid.productImage}</div>
+
     
     </div>`;
     bidsList.appendChild(listItem);
