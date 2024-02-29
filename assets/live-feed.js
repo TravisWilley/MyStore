@@ -30,7 +30,7 @@ const renderLiveBids = (bids) => {
   // Function to create and add a bid list item
   function addBidListItem(bid) {
     const listItem = document.createElement("div");
-    listItem.innerHTML = `<div> ${bid.productName}: $${bid.bidAmount}
+    listItem.innerHTML = `<div class="product-card"> ${bid.productName}: $${bid.bidAmount}
     <div>${bid.bidDate}</div>
     <div>image: ${bid.productImage}</div>
 
