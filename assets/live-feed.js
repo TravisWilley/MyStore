@@ -25,6 +25,7 @@ socket.on("bidsList", (data) => {
 
 const renderLiveBids = (bids) => {
   const bidsList = document.getElementById("live-bids");
+  bidsList.innerHTML = "";
 
   // Function to create and add a bid list item
   function addBidListItem(bid) {
