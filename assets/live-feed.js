@@ -1,6 +1,9 @@
 
 fetch("https://bid-store.onrender.com/bidlist").then(data=>{
   console.log("data", data)
+}).catch(e=>{
+    console.log("e", e)
+
 })
 
 
