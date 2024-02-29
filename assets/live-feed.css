@@ -37,26 +37,8 @@
   margin-bottom: 5px;
 }
 
-/* Product price */
-.product-price {
-  font-size: 16px;
-  font-weight: bold;
-  color: #e31837; /* Price color */
-  margin-bottom: 10px;
-}
-
-/* Product meta information (optional) */
-.product-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #999;
-  font-size: 12px;
-  margin-bottom: 5px;
-}
-
 /* "Just now" text styling */
-.product-meta .just-now {
+.just-now {
   color: #007bff; /* Adjust color if needed */
   font-weight: bold;
 }
