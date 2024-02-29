@@ -58,9 +58,9 @@
   font-size: 12px;
 }
 :root {
-  --pulseSize: 28px;
-  --blue: rgba(95, 139, 250, 0.65);
-  --transparentBlue: rgba(95, 139, 250, 0);
+  --pulseSize: 14px;
+  --blue: #625bf6;
+  --transparentBlue: #b6b3fb;
 }
 
 .center {
