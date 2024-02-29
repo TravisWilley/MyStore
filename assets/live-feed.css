@@ -12,6 +12,9 @@
 .live {
   color: #625bf6;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .image-placeholder {
   width: 40px;
