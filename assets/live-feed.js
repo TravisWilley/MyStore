@@ -31,7 +31,7 @@ const renderLiveBids = (bids) => {
   function addBidListItem(bid) {
     const listItem = document.createElement("div");
     listItem.innerHTML = `<div class="product-card"> 
-    <div>
+    <div style="display: flex;align-items: center;">
     
     ${
       bid.productImage
