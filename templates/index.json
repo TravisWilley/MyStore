@@ -36,7 +36,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-4de569e3-5446-4267-b186-eaf2a5ac0022",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -88,7 +88,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-4de569e3-5446-4267-b186-eaf2a5ac0022",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -97,7 +97,6 @@
     },
     "featured_collection_WWheXj": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Available Cases",
         "heading_size": "h1",
@@ -111,7 +110,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-4de569e3-5446-4267-b186-eaf2a5ac0022",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
