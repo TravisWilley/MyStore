@@ -8,7 +8,6 @@
   overflow: hidden; /* Prevent image overflow */
   padding: 0px 15px;
   justify-content: space-between;
-  align-items: center;
 }
 .image-placeholder {
   width: 40px;
@@ -48,5 +47,5 @@
 /* "Just now" text styling */
 .just-now {
   color: #999;
-  font-size: 14px;
+  font-size: 12px;
 }
