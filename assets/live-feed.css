@@ -58,7 +58,7 @@
   font-size: 12px;
 }
 :root {
-  --pulseSize: 14px;
+  --pulseSize: 8px;
   --blue: #625bf6;
   --transparentBlue: #b6b3fb;
 }
