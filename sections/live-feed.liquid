@@ -110,11 +110,8 @@
     </div>
   </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/socket.io-client@4.7.4/dist/socket.io.min.js"></script>
 <script>
-  const { io } = require("socket.io-client");
-
-
     const socket = io('https://bid-store.onrender.com'); // Replace with your server details
   socket.connect()
   console.log("socket", socket)
