@@ -4,6 +4,7 @@ fetch("https://bid-store.onrender.com/bidlist")
   .then((data) => {
     const bids = JSON.parse(data);
     console.log("bids", bids);
+    renderLiveBids(bids);
   })
   .catch((e) => {
     console.log("e", e);
@@ -19,6 +20,7 @@ socket.on("connect", () => {
 
 socket.on("bidsList", (data) => {
   console.log("bidlist", data);
+  renderLiveBids(data);
 });
 
 const renderLiveBids = (bids) => {
