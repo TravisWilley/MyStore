@@ -51,7 +51,7 @@ const renderLiveBids = (bids) => {
     </div>
     </div>
     </div>
-    <div class="just-now">${bid.bidDate}</div>
+    <div class="just-now">${dayjs(bid.bidDate || undifined).fromNow()}</div>
     
     </div>`;
     bidsList.appendChild(listItem);
