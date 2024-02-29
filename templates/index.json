@@ -132,7 +132,7 @@
           "settings": {
             "collection": "auctions",
             "show_auctions": "most_recent_auctions",
-            "number_of_auctions_to_show": 8,
+            "number_of_auctions_to_show": 15,
             "auction_ids": [
               "copy-of-copy-of-copy-of-copy-of-copy-of-workplace-compensation-new-york",
               "copy-of-copy-of-copy-of-copy-of-workplace-compensation-new-york",
