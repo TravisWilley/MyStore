@@ -7,13 +7,15 @@
   margin-bottom: 20px;
   overflow: hidden; /* Prevent image overflow */
   padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
 }
 .image-placeholder {
   width: 40px;
   height: 40px;
   background-color: black;
-  display: block;
-  border-radius: 10px;
+  display: block !important;
+  border-radius: 8px;
 }
 
 /* Product image */
@@ -40,6 +42,7 @@
 .product-subtitle {
   font-size: 14px;
   color: #999;
+  margin-top: -7px;
 }
 
 /* "Just now" text styling */
