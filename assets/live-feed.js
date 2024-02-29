@@ -31,7 +31,12 @@ const renderLiveBids = (bids) => {
   function addBidListItem(bid) {
     const listItem = document.createElement("div");
     listItem.innerHTML = `<div class="product-card"> 
-        <img src="${bid.productImage}" />
+    ${
+      bid.productImage
+        ? `<img src="${bid.productImage}" />`
+        : `<div style="width:20px;height:20px;background-color:black; "></div>`
+    }
+        
 
     <div class="product-details">
     <div class="product-title">
