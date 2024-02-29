@@ -6,11 +6,11 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   overflow: hidden; /* Prevent image overflow */
-  padding: 5px;
+  padding: 0px 15px;
 }
 .image-placeholder {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: black;
   display: block;
   border-radius: 10px;
@@ -18,14 +18,14 @@
 
 /* Product image */
 .product-card img {
-  height: 50px; /* Adjust height as needed */
-  width: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
 }
 
 /* Product details container */
 .product-details {
-  padding: 15px;
+  padding: 1px 15px;
   flex: 1; /* Flexible growth to fill remaining space */
 }
 
