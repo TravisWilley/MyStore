@@ -31,10 +31,12 @@ const renderLiveBids = (bids) => {
   function addBidListItem(bid) {
     const listItem = document.createElement("div");
     listItem.innerHTML = `<div class="product-card"> 
+    <div>
+    
     ${
       bid.productImage
         ? `<img src="${bid.productImage}" />`
-        : `<div style="width:20px;height:20px;background-color:black; "></div>`
+        : `<div style="width:50px;height:50px;background-color:black;disblay:block "></div>`
     }
         
 
@@ -47,7 +49,8 @@ const renderLiveBids = (bids) => {
     
     Someone just bid $${bid.bidAmount}
     </div>
-    </div
+    </div>
+    </div>
     <div>${bid.bidDate}</div>
     
     </div>`;
