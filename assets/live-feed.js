@@ -1,3 +1,5 @@
+dayjs.extend(window.dayjs_plugin_relativeTime);
+
 fetch("https://bid-store.onrender.com/bidlist")
   .then((response) => response.text())
 
