@@ -112,14 +112,11 @@
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.0/socket.io.js"></script>
 <script>
+    const socket = io('wss://bid-store.onrender.com'); // Replace with your server details
+  console.log("socket", socket)
+      socket.on('connect', () => {
         console.log('Connected to socket server');
-
-
-  const socket = io('wss://bid-store.onrender.com'); // Replace with your server details
-
-    socket.on('connect', () => {
-      console.log('Connected to socket server');
-  });
+    });
 </script>
 
 {% schema %}
