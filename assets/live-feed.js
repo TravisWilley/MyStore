@@ -36,7 +36,7 @@ const renderLiveBids = (bids) => {
     ${
       bid.productImage
         ? `<img src="${bid.productImage}" />`
-        : `<div style="width:50px;height:50px;background-color:black;disblay:block "></div>`
+        : `<div style="width:50px;height:50px;background-color:black;display:block "></div>`
     }
         
 
