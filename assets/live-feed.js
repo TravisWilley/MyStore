@@ -1,6 +1,6 @@
 dayjs.extend(window.dayjs_plugin_relativeTime);
 
-fetch("https://bid-store.onrender.com/bidlist")
+fetch("https://bid-store-back.onrender.com/bidlist")
   .then((response) => response.text())
 
   .then((data) => {
@@ -12,7 +12,7 @@ fetch("https://bid-store.onrender.com/bidlist")
     console.log("e", e);
   });
 
-const socket = io("https://bid-store.onrender.com"); // Replace with your server details
+const socket = io("https://bid-store-back.onrender.com"); // Replace with your server details
 socket.connect();
 console.log("socket", socket);
 
