@@ -39,6 +39,6 @@
 
 /* "Just now" text styling */
 .just-now {
-  color: #007bff; /* Adjust color if needed */
-  font-weight: bold;
+  color: #333;
+  font-size: 14px;
 }
