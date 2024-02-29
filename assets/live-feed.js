@@ -1,4 +1,10 @@
-  const socket = io('https://bid-store.onrender.com'); // Replace with your server details
+
+fetch("https://bid-store.onrender.com/bidlist").then(data=>{
+  console.log("data", data)
+})
+
+
+const socket = io('https://bid-store.onrender.com'); // Replace with your server details
    socket.connect()
    console.log("socket", socket)
 
