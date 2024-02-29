@@ -47,9 +47,8 @@ const renderLiveBids = (bids) => {
     
     Someone just bid $${bid.bidAmount}
     </div>
-        <div>${bid.bidDate}</div>
-
     </div
+    <div>${bid.bidDate}</div>
     
     </div>`;
     bidsList.appendChild(listItem);
