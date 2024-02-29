@@ -2,7 +2,8 @@ fetch("https://bid-store.onrender.com/bidlist")
   .then((response) => response.text())
 
   .then((data) => {
-    console.log("data", data);
+    const bids = JSON.parse(data);
+    console.log("bids", bids);
   })
   .catch((e) => {
     console.log("e", e);
