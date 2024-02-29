@@ -147,6 +147,9 @@
       "block_order": [
         "auction_pro_featured_auctions_7bnxFp"
       ],
+      "custom_css": [
+        "body {background-color:white}"
+      ],
       "settings": {
         "include_margins": true
       }
