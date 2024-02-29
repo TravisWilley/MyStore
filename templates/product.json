@@ -85,6 +85,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -100,10 +101,32 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "17092262616602effd": {
+      "type": "apps",
+      "blocks": {
+        "auction_pro_customer_auctions_qjcb3F": {
+          "type": "shopify:\/\/apps\/auction-pro\/blocks\/customer-auctions\/f9a60837-ee5e-4613-bf53-00e7b2589c1b",
+          "settings": {
+            "include_title": true,
+            "menu_active_link_colour": "#06f",
+            "menu_inactive_link_colour": "#5c9dff",
+            "view_auction_button": "#0066ff",
+            "view_auction_button_hover": "#0052cc"
+          }
+        }
+      },
+      "block_order": [
+        "auction_pro_customer_auctions_qjcb3F"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "17092262616602effd"
   ]
 }
