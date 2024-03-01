@@ -96,6 +96,6 @@
     box-shadow: 0 0 0 4px var(--transparentBlue);
   }
   to {
-    box-shadow: 0 0 0 0 var(--transparentBlue);
+    box-shadow: 0 0 0 4px var(--transparentBlue);
   }
 }
