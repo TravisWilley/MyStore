@@ -89,12 +89,10 @@
   from {
     box-shadow: 0 0 0 0 var(--blue);
   }
-  30% {
+  50% {
     box-shadow: 0 0 0 2px var(--transparentBlue);
   }
-  70% {
-    box-shadow: 0 0 0 4px var(--transparentBlue);
-  }
+
   to {
     box-shadow: 0 0 0 4px var(--transparentBlue);
   }
