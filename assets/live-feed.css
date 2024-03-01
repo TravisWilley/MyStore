@@ -29,7 +29,7 @@
   height: 48px;
   background-color: black;
   display: block !important;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 
 /* Product image */
@@ -37,7 +37,7 @@
   width: 49px;
   height: 48px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: 18px;
 }
 
 /* Product details container */
