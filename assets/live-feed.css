@@ -42,14 +42,14 @@
 
 /* Product title */
 .product-title {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   color: #000;
 }
 
 /* Product subtitle (optional) */
 .product-subtitle {
-  font-size: 13px;
+  font-size: 14px;
   color: #62676d;
   margin-top: -7px;
 }
