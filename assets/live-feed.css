@@ -42,9 +42,9 @@
 
 /* Product title */
 .product-title {
-  font-size: 18px;
+  font-size: 17pt;
   font-weight: bold;
-  color: #333;
+  color: #000;
 }
 
 /* Product subtitle (optional) */
