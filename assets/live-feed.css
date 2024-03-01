@@ -1,6 +1,7 @@
 .product-card {
   /* Box model and background */
   display: flex;
+  border: 1px solid #e1e3e3;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
@@ -18,8 +19,8 @@
   font-weight: 600;
 }
 .image-placeholder {
-  width: 40px;
-  height: 40px;
+  width: 49px;
+  height: 48px;
   background-color: black;
   display: block !important;
   border-radius: 8px;
@@ -27,8 +28,8 @@
 
 /* Product image */
 .product-card img {
-  width: 40px;
-  height: 40px;
+  width: 49px;
+  height: 48px;
   object-fit: cover;
   border-radius: 8px;
 }
