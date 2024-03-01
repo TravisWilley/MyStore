@@ -3,11 +3,11 @@
   display: flex;
   border: 1px solid #e1e3e3;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 18px;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
   overflow: hidden; /* Prevent image overflow */
-  padding: 6px 15px;
+  padding: 5px 15px;
   justify-content: space-between;
 }
 .live {
